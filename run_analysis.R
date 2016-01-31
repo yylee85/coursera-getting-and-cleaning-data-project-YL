@@ -90,8 +90,8 @@ average.df <- summarise_each(average.df, funs(mean))
 average.df <- ungroup(average.df)
 
 
-# Export the tidy data set and average data set as .txt file
+# Export tidy data set and tidy data set of variable averages as .txt file
 
 write.table(tidy.df, file = "tidydata_YL.txt", row.names = FALSE)
-write.table(tidy.df, file = "averagedata_YL.txt", row.names = FALSE)
+write.table(average.df, file = "tidydata_average_YL.txt", row.names = FALSE)
 
