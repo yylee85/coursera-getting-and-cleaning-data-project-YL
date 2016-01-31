@@ -15,8 +15,8 @@ For each record in the dataset it is provided:
 
 
 ## Identifier variables
-* subject - Test subject ID
-* activity - Type of activity performed when measurements were taken
+* 'subject' - Test subject ID
+* 'activity' - Type of activity performed when measurements were taken
 
 ## Measurement variables
 * tbodyacc-mean-x
