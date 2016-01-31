@@ -1,4 +1,4 @@
-# Codebook for the 'tidydata_YL.txt' dataset
+# Codebook for the tidy dataset
 
 This codebook provides a descriptive summary of the 'tidydata_YL.txt' dataset
 
