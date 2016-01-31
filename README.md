@@ -31,3 +31,7 @@ The project involves creating a single R script called run_analysis.R that does 
 `run_analysis.R` contains the code used to produce the tidy dataset of average variables uploaded as `tidydata_average_YL.txt`
 
 `CodeBook.md` describes the tidy dataset of average variables produced by the `run_analysis.R` script
+
+## Instructions for sourcing `run_analysis.R` script
+
+Please note that the R script checks to see if there is an existing copy of the `UCI-HAR-dataset.zip` file in the R working directory. If no existing file is found, then the script will automatically download the file for you prior to running the analysis.
