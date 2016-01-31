@@ -83,14 +83,14 @@ rm(subj.df, y.df, x.df)
 tidy.df <- tbl_df(tidy.df)
 
 
-# Create 2nd data set of variable averages for each subject
+# Create 2nd data set of average variables for each subject and activity
 
 average.df <- group_by(tidy.df, subject, activity)
 average.df <- summarise_each(average.df, funs(mean))
 average.df <- ungroup(average.df)
 
 
-# Export 1st data set and 2nd tidy data set of variable averages as .txt file
+# Export 1st data set and 2nd tidy data set of average variables as .txt file
 
 write.table(tidy.df, file = "tidydata_YL.txt", row.names = FALSE)
 write.table(average.df, file = "tidydata_average_YL.txt", row.names = FALSE)
