@@ -28,6 +28,6 @@ The project involves creating a single R script called run_analysis.R that does 
 
 ## Files
 
-run_analysis.R contains the code used to produce the tidy dataset uploaded as 'tidydata_YL.txt'
+run_analysis.R contains the code used to produce the tidy dataset uploaded as `tidydata_average_YL.txt`
 
 CodeBook.md describes the tidy dataset produced by the run_analysis.R script
